@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 4fr 16fr;
+    grid-template-rows: 5fr 20fr 6fr 2fr;
+}
+.navigation {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: lightgreen;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
+.header {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:  lightgreen;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
+.history {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: lightgreen;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
+.main {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: white;
+}
+.footer {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    background-color: lightgreen;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
